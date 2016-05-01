@@ -1,7 +1,13 @@
 <header>
     <div class="wrapper">
+    <nobr>
         <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
-        <small>{{site.brief-intro}}</small>
+        <small style="white-space: nowrap; text-overflow:ellipsis;overflow:hidden">{{site.brief-intro}}</small>
+    </nobr>
+        <!--
+        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <small style="white-space: nowrap; text-overflow:ellipsis;overflow:hidden">{{site.brief-intro}}</small>
+        -->
         <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
             <ul>
