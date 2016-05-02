@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: StupidChiy的QQ空间
-brief-intro: 人文历史学者，著有：《商周时代量子力学的研究与发展》；《亚伯拉罕林肯传记：动漫产业革新者》；《河姆渡的民主社会主义与公民社会》。
+title: 何帆的博客
+brief-intro: 人文历史学者，著有：《商周时代量子力学的研究与发展》;《亚伯拉罕林肯传记：动漫产业革新者》;《河姆渡的民主社会主义与公民社会》。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tloyd.github.io" # the base hostname & protocol for your site
 
@@ -21,13 +21,13 @@ email: tloyd@sina.com
 weibo_username: tloyd
 #zhihu_username: gaohaoyang
 
-description_footer: 一个农村外出务工人员的情感世界！
+description_footer: 一个农村外出务工人员的学艺之路.
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname:  #hygblog
-disqus_shortname:  tloyd #gaohaoyang
+disqus_shortname:  tloyd
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
