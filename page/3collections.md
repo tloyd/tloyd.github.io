@@ -8,7 +8,3 @@ icon: bookmark
 * content
 {:toc}
 
-
-## Comments
-
-{% include comments.html %}

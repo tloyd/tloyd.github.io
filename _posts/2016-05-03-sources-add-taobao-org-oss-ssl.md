@@ -9,9 +9,12 @@ tags: ruby jekyll
 * content
 {:toc}
 
+本篇主要记录下自己在配置jekyll本地环境时候遇到的一些问题，以免再犯
+
+
+
+
 - 在用到`gem install bundler`的时候,一直产生fetch url error错误.网上有人说是因为gfw的原因,很多人建议用国内淘宝的镜像,然而我用却也是一直出现Error fetching的错误
-
-
 
 - 如下:
 

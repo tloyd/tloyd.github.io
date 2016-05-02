@@ -1,13 +1,16 @@
 <header>
     <div class="wrapper">
-        <div style="float: left;">
+    <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <small>{{site.brief-intro}}</small>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <!-- <div style="float: left;">
             <a href="{{ site.baseurl }}/" class="brand" >{{ site.title }}
             </a>
         </div>
-        <div id="smalltext" STYLE="overflow: hidden; text-overflow:ellipsis;white-space: nowrap; ">
+        <div id="smalltext" STYLE="overflow: hidden; text-overflow:ellipsis;white-space: nowrap; width:">
         <small>{{site.brief-intro}}</small>
-        </div>
-        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        </div> 
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>-->
         <nav id="headerNav">
             <ul>
                 <li>
@@ -36,27 +39,4 @@
             </ul>
         </nav>
     </div>
-    <script type="text/javascript"> 
-        <!-- 
-        var winWidth = 0; 
-        function findDimensions() //函数：获取尺寸 
-        { 
-        //获取窗口宽度 
-        if (window.innerWidth) 
-            winWidth = window.innerWidth; 
-        else if ((document.body) && (document.body.clientWidth)) 
-            winWidth = document.body.clientWidth; 
-        //通过深入Document内部对body进行检测，获取窗口大小 
-        if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) 
-        { 
-            winWidth = document.documentElement.clientWidth; 
-        } 
-        //结果输出至两个文本框 
-        document.getElementById(smalltext).style.width=winWidth; 
-        } 
-        findDimensions(); 
-        //调用函数，获取数值 
-        window.onresize=findDimensions; 
-        //--> 
-    </script>
 </header>
