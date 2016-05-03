@@ -17,9 +17,10 @@ tags: ruby jekyll
 - 在用到`gem install bundler`的时候,一直产生fetch url error错误.网上有人说是因为gfw的原因,很多人建议用国内淘宝的镜像,然而我用却也是一直出现Error fetching的错误
 
 - 如下:
-```
-Error fetching https://ruby.taobao.org/:SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://rubygems-china.oss-cn-hangzhou.aliyuncs.com/specs.4.8.gz)
-```
+
+	```
+	Error fetching https://ruby.taobao.org/:SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://rubygems-china.oss-cn-hangzhou.aliyuncs.com/specs.4.8.gz)
+	```
 
 - 这个错误,taobao在github上的说法是OSS 的 SSL 证书供应商变动而出现的原因,建议把rubygems更新到2.6.3,我更新后还是不行.后来我换了中山大学的镜像[http://mirror.sysu.edu.cn/rubygems/](http://mirror.sysu.edu.cn/rubygems/ "http://mirror.sysu.edu.cn/rubygems/")才可以用的.
 
