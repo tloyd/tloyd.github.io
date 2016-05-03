@@ -45,10 +45,8 @@ tags: ruby jekyll
 - 在做域名解析的时候发现一个问题,就是微信内置的浏览器的dns缓存更新非常慢,更换了解析指向的ip后要大半天才能打开网页.而且不能像电脑一样,无法手动刷新dns缓存,让我刚开始还以为是网页代码有问题检查了半天
 
 ---
+- 图文无关  
 
-
-![img](http://ww4.sinaimg.cn/mw600/767e4963jw1f3herh1r75j212z0qo7fz.jpg)  
-
-图文无关
+![img](http://ww4.sinaimg.cn/mw600/767e4963jw1f3herh1r75j212z0qo7fz.jpg) 
 
 ---
