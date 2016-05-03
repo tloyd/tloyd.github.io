@@ -35,7 +35,7 @@ tags: ruby jekyll
 	3. 山东理工大学:[http://ruby.sdutlinux.org/](http://ruby.sdutlinux.org/)
 	4. GitHub镜像:[https://github.com/rubygems/rubygems-mirror](https://github.com/rubygems/rubygems-mirror)
 	5. RubyForge:[http://gems.rubyforge.org](http://gems.rubyforge.org)
-	6. Gems:[http://gems.github.com](http://gems.github.com)
+	6. Gems:[http://gems.github.com](http://gems.github.com)  
 
 
 - 还有一点就是官方现在推荐的安装方式,是用github对应的一个gem `$ bundle update` 来打包一键设置环境,这个里面的有些依赖的包是不支持最新的`ruby2.3.1`的,所以建议大家还是用之前的版本就可以了,最好是2.2.4的版本,这个版本也自带了gem,也比较方便
