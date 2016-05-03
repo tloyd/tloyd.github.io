@@ -68,10 +68,16 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+
+            <!--搜索框-->
             <div class="side" style="padding-left: 2px;padding-bottom: 3px">
-                <input type="text" name="search" id="bdcsMain" value="" placeholder="搜索" 
+            
+                <input type="text" value="" placeholder="搜索" id="bdcsMain" 
+                onkeypress="" 
                 style="border: none;background-color: #EAEAEF;height: 18px;width: 261px;margin: 0px;color:#999;outline: none;" >
+
             </div>
+        
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -157,3 +163,6 @@ layout: default
 </div>
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
+<script type="text/javascript">
+    (function(){document.write(unescape('%3Cdiv id="bdcs"%3E%3C/div%3E'));var bdcs = document.createElement('script');bdcs.type = 'text/javascript';bdcs.async = true;bdcs.src = 'http://znsv.baidu.com/customer_search/api/js?sid=8821837857167152884' + '&plate_url=' + encodeURIComponent(window.location.href) + '&t=' + Math.ceil(new Date()/3600000);var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(bdcs, s);})();
+</script>  
