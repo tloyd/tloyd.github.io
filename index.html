@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h2>来者皆是客!</h2>
-        <small>分享技术搞定错误</small>
+        <h2>{{site.page-title}}</h2>
+        <small>{{site.page-description}}</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -68,6 +68,10 @@ layout: default
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
+            <div class="side" style="padding-left: 2px;padding-bottom: 3px">
+                <input type="text" name="search" id="search" value="" placeholder="搜索" 
+                style="border: none;background-color: #EAEAEF;height: 18px;width: 261px;margin: 0px;color:#999;outline: none;" >
+            </div>
             <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>

@@ -7,7 +7,9 @@
 
 # Site settings
 title: 何帆的博客
-brief-intro: 各种编程技术菜鸟
+brief-intro: 各种技术各种菜鸟
+page-title: 来者皆是客
+page-description: 分享技术搞定错误
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tloyd.github.io" # the base hostname & protocol for your site
 
