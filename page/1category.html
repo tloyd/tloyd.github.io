@@ -12,7 +12,7 @@ icon: th-list
         <hr>
         <ul>
             {% for category in site.categories %}
-            <h2 id="{{category | first}}">{{category | first}}</h2>
+            <h3 id="{{category | first}}">{{category | first}}</h3>
                 {% for posts in category  %}
                     {% for post in posts %}
                         {% if post.url %}
