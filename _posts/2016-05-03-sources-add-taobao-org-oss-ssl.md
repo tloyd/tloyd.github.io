@@ -16,7 +16,7 @@ tags: ruby jekyll
 
 - 在用到`gem install bundler`的时候,一直产生fetch url error错误.网上有人说是因为gfw的原因,很多人建议用国内淘宝的镜像,然而我用却也是一直出现Error fetching的错误
 
-- 如下:
+- 如下:   
 
 	```
 	Error fetching https://ruby.taobao.org/:SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed (https://rubygems-china.oss-cn-hangzhou.aliyuncs.com/specs.4.8.gz)
@@ -45,8 +45,10 @@ tags: ruby jekyll
 - 在做域名解析的时候发现一个问题,就是微信内置的浏览器的dns缓存更新非常慢,更换了解析指向的ip后要大半天才能打开网页.而且不能像电脑一样,无法手动刷新dns缓存,让我刚开始还以为是网页代码有问题检查了半天
 
 ---
-- 图文无关
 
-![img](http://ww4.sinaimg.cn/mw600/767e4963jw1f3herh1r75j212z0qo7fz.jpg)
+
+![img](http://ww4.sinaimg.cn/mw600/767e4963jw1f3herh1r75j212z0qo7fz.jpg)  
+
+图文无关
 
 ---
