@@ -5,6 +5,8 @@ permalink: /collection/
 icon: bookmark
 ---
 
+## 收藏
+
 * content
 {:toc}
 
