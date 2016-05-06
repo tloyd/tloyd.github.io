@@ -2,8 +2,9 @@
 layout: post
 title:  "在用jekyll搭建本地环境时候的一些问题"
 date:   2016-05-01 00:03:01
-categories:  奇葩Bug集锦
+categories:  经验分享
 tags: ruby jekyll
+author: 何帆
 ---
 
 * content

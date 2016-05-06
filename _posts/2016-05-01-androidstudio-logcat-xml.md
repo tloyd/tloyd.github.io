@@ -2,8 +2,9 @@
 layout: post
 title:  "AndroidStudio无法用logcat输入xml的错误"
 date:   2016-04-29 23:00:27
-categories:  奇葩Bug集锦
+categories:  错误集锦
 tags: JavaScript AndroidStudio logcat
+author: 何帆
 ---
 
 * content
