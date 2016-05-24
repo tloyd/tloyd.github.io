@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "百度地图API使用入门"
-date:   2016-05-24 10:37:52
+date:   2016-05-23 10:37:52
 categories: 错误集锦 经验分享
 tags:	百度地图 API
 author: 何帆
