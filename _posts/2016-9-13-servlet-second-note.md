@@ -19,6 +19,7 @@ tags:  JavaEE Servlet JavaWeb
 - 用` getInitParameter(String ParameterName)`方法得到参数
 - 在实际开发中直接HttpServlet.getServletConfig()就可以得到ServletConfig对象了（父类封装好的
 - `java.util.Enumeration<java.lang.String> getInitParameterNames()`得到所有的参数名称
+- 实际开发中可以用来配置码表字符集、数据库信息、读取的配置文件什么的，这些参数不适合在程序里写死
 
 
 
