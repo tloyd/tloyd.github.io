@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android API Guide:Storage Options 中文翻译"
-date:   2016-05-10 12:14:46
+date:   2016-05-10 2:14:46
 categories: 文档翻译
 tags:  AndroidAPI Storage
 author: 何帆
