@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "用Python计算一道特别的数独"
-date:   2018-09-02 14:49:12
+date:   2018-08-31 14:49:12
 categories: 代码共享
 tags: Python
 author: 何帆
